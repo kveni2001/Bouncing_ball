@@ -1,18 +1,53 @@
+
 body{
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    height: 100%;
-    width: 100%;
+    background: #451952;
 }
-span{
-    height: 100px;
-    width: 100px;
-    background: blueviolet;
-    color: white;
+#gameCanvas {
+    border: 2px solid rgb(192, 68, 140);
+    width:800px;
+    height:600px;
+    margin-left: 20%;
+    border-radius: 15px;
+    box-shadow: 15px 15px 50px rgba(255, 66, 176, 0.699) ,-15px -15px 50px rgba(66, 94, 255, 0.699);
+    background: rgba(255, 194, 230, 0.473) ;
+    border-top:  rgb(62, 80, 236);
+    border-left:  rgb(68, 83, 224);
+    color: #451952;
 }
-canvas{
-    height: 100%;
-    width: 100%;
-    background: white;
+
+#resetButton {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+    display: block;
+    background:rgba(194, 200, 255, 0.473) ;
+    border: 1px solid rgb(62, 80, 236);
+    border-left: rgb(192, 68, 140);
+    border-top: rgb(192, 68, 140);
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgba(66, 94, 255, 0.699) ,-10px -10px 30px rgba(255, 66, 176, 0.671);
+    margin-left: 45%;
+    margin-right: 20%;
+
+}
+
+h1{
+    text-align: center;
+    color: #e8bcb9;
+    font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Assistant', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poltawski Nowy', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+}
+#resetButton:hover{
+    transition-duration: 0.4s;
+    box-shadow: 15px 15px 60px rgba(66, 94, 255, 0.699) ,-15px -15px 60px rgba(255, 66, 176, 0.671);
+   
+
 }
